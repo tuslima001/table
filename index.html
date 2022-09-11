@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>span table</title>
+    <style>
+        table{
+            background: blue;
+            color: aliceblue;
+            height: 500px;
+          
+            width: 800px;
+        }
+        #t{
+            background: yellowgreen;
+        }
+        #tt{
+            background: yellow;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tbody>
+            <tr id="t">
+                <td>Hedear</td>
+                <td>Hedear</td>
+                <td>Hedear</td>
+                <td>Hedear</td>
+            </tr>
+            <tr id="tt">
+                <td colspan="1" rowspan="5">Span rows</td>
+                <td colspan="3" rowspan="1">Span columns</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1">Span columns</td>
+                <td colspan="1" rowspan="4">Span both</td>
+                
+            </tr>
+            <tr>
+                <td colspan="1" rowspan="3">Span rows</td>
+                <td>Span columns</td>
+            </tr>
+            <tr>
+                <td colspan="1" rowspan="2">Span both</td>
+                
+            </tr>
+            
+           
+        </tbody>
+    </table>
+    
+     
+    
+</body>
+</html>
